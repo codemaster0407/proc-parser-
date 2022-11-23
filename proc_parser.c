@@ -2,7 +2,7 @@
 #include<string.h>
 #include<unistd.h>
 #define _GNU_SOURCE
-
+//Made for Ubuntu 22.04  virtual machine. Might not work for other machines. 
 
 int context_times[1000], processes_times[1000], read_time[1000], write_time[1000];
 
